@@ -1,0 +1,47 @@
+
+#btnAbout {
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+
+#btnContact {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    /* float: right; */
+
+}
+
+#btnProjects {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+
+#aboutBtnTxt {
+    display: inline-block;
+    transform: rotate(-90deg);
+}
+
+#contactBtnTxt {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.navBtnSides {
+    width: 100px;
+    height: 20%;
+}
+
+.navBtnTop {
+    width: 100px;
+    height: 10%;
+}
+
+.contentWrapper {
+    position: absolute;
+    height: 85vh;
+    width: 100vw;
+}
